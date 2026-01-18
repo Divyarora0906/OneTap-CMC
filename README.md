@@ -1,50 +1,106 @@
-# Welcome to your Expo app 👋
+# OneTap CMC
+## File Converter, Merger & Compressor – Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+OneTap CMC is a mobile utility application built using React Native (Expo) that provides essential file management tools in a single platform. The application allows users to convert files, merge documents, and compress media with a simple and easy-to-use interface.
 
-## Get started
+This project was developed as a real-world learning project to gain hands-on experience in mobile application development using React Native and Expo.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- Convert files between supported formats (PDF, images, documents)
+- Merge multiple files into a single output
+- Compress files to reduce file size
+- Simple and clean user interface
+- Ad-free experience
 
-   ```bash
-    npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native
+- Expo
+- TypeScript
+- JavaScript
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Platform Support
 
-When you're ready, run:
+- Android
+- iOS (via Expo)
 
+---
+
+## Project Structure
+
+OneTap-CMC/
+├── app/ # Application screens and logic
+├── assets/ # Images and static resources
+├── package.json
+├── app.json
+
+yaml
+Copy code
+
+---
+
+## How to Run Locally
+
+1. Clone the repository:
 ```bash
-npm run reset-project
-```
+git clone https://github.com/Divyarora0906/OneTap-CMC.git
+Navigate to the project directory:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+bash
+Copy code
+cd OneTap-CMC
+Install dependencies:
 
-## Learn more
+bash
+Copy code
+npm install
+Start the Expo development server:
 
-To learn more about developing your project with Expo, look at the following resources:
+bash
+Copy code
+npx expo start
+Run the app using:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Expo Go (Android / iOS)
 
-## Join the community
+Android Emulator
 
-Join our community of developers creating universal apps.
+iOS Simulator (Mac)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Purpose of the Project
+Learn and apply React Native concepts
+
+Build a practical mobile utility application
+
+Understand UI structuring and navigation
+
+Gain experience with Expo and TypeScript
+
+Live Website
+https://www.onetapcmc.in
+
+Future Improvements
+Improve file handling reliability
+
+Support additional file formats
+
+Enhance UI/UX
+
+Add download history and file management features
+
+Author
+Divy Arora
+GitHub: https://github.com/Divyarora0906
+
+vbnet
+Copy code
+
+This is **100% ready** to commit.  
+Next step: **pin this repo** and move to the next project README 🚀
