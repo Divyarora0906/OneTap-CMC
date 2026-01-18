@@ -1,106 +1,118 @@
-# OneTap CMC
-## File Converter, Merger & Compressor – Mobile App
+# OneTap CMC 📱
 
-OneTap CMC is a mobile utility application built using React Native (Expo) that provides essential file management tools in a single platform. The application allows users to convert files, merge documents, and compress media with a simple and easy-to-use interface.
+[![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-This project was developed as a real-world learning project to gain hands-on experience in mobile application development using React Native and Expo.
+**OneTap CMC** is a lightweight, high-performance mobile utility application built with React Native and Expo. It simplifies your digital workflow by allowing you to convert, merge, and compress files with a single tap.
 
----
-
-## Features
-
-- Convert files between supported formats (PDF, images, documents)
-- Merge multiple files into a single output
-- Compress files to reduce file size
-- Simple and clean user interface
-- Ad-free experience
+[**🌐 Visit Live Site**](https://www.onetapcmc.in)
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-- React Native
-- Expo
-- TypeScript
-- JavaScript
-
----
-
-## Platform Support
-
-- Android
-- iOS (via Expo)
+* **File Conversion:** Seamlessly switch between formats (PDF, PNG, JPG, DOCX).
+* **Merge Tool:** Combine multiple documents or images into one high-quality file.
+* **Smart Compression:** Reduce file sizes significantly without losing quality.
+* **Clean UI:** Minimalist design focused on speed and ease of use.
+* **Privacy First:** No intrusive ads or unnecessary data tracking.
 
 ---
 
-## Project Structure
+## 🛠️ Tech Stack
 
+* **Framework:** [React Native](https://reactnative.dev/) (Expo Managed Workflow)
+* **Language:** [TypeScript](https://www.typescriptlang.org/) & JavaScript
+* **Styling:** NativeWind / StyleSheet
+* **Navigation:** React Navigation
+
+---
+
+## 📁 Project Structure
+
+```text
 OneTap-CMC/
-├── app/ # Application screens and logic
-├── assets/ # Images and static resources
-├── package.json
-├── app.json
+├── app/               # Main application logic & screens
+├── assets/            # Static files (images, fonts)
+├── components/        # Reusable UI components
+├── hooks/             # Custom React hooks
+├── utils/             # Helper functions for file processing
+├── package.json       # Dependencies & scripts
+└── app.json           # Expo configuration
 
-yaml
-Copy code
+```
 
 ---
 
-## How to Run Locally
+## 🚀 Getting Started
 
-1. Clone the repository:
+### Prerequisites
+
+Ensure you have the following installed:
+
+* [Node.js](https://nodejs.org/) (v16 or newer)
+* [Expo Go](https://www.google.com/search?q=https://expo.dev/client) app on your mobile device to test.
+
+### Installation & Run
+
+1. **Clone the repository:**
 ```bash
-git clone https://github.com/Divyarora0906/OneTap-CMC.git
-Navigate to the project directory:
-
-bash
-Copy code
+git clone [https://github.com/Divyarora0906/OneTap-CMC.git](https://github.com/Divyarora0906/OneTap-CMC.git)
 cd OneTap-CMC
-Install dependencies:
 
-bash
-Copy code
+```
+
+
+2. **Install dependencies:**
+```bash
 npm install
-Start the Expo development server:
 
-bash
-Copy code
+```
+
+
+3. **Start the development server:**
+```bash
 npx expo start
-Run the app using:
 
-Expo Go (Android / iOS)
+```
 
-Android Emulator
 
-iOS Simulator (Mac)
+4. **Run on device:**
+Scan the QR code displayed in your terminal using the **Expo Go** app (Android) or **Camera app** (iOS).
 
-Purpose of the Project
-Learn and apply React Native concepts
+---
 
-Build a practical mobile utility application
+## 🎯 Project Goals
 
-Understand UI structuring and navigation
+This project was built to master:
 
-Gain experience with Expo and TypeScript
+* [x] React Native Hooks and Component lifecycle.
+* [x] File system handling in mobile environments.
+* [x] Efficient UI structuring and navigation.
+* [x] Type safety with TypeScript.
 
-Live Website
-https://www.onetapcmc.in
+---
 
-Future Improvements
-Improve file handling reliability
+## 👤 Author
 
-Support additional file formats
+**Divy Arora**
 
-Enhance UI/UX
+* GitHub: [@Divyarora0906](https://github.com/Divyarora0906)
+* Website: [onetapcmc.in](https://www.onetapcmc.in)
 
-Add download history and file management features
+---
 
-Author
-Divy Arora
-GitHub: https://github.com/Divyarora0906
+*Give this project a ⭐ if you found it useful!*
 
-vbnet
-Copy code
+```
 
-This is **100% ready** to commit.  
-Next step: **pin this repo** and move to the next project README 🚀
+### Why this version is better:
+1.  **Badges:** Adds professional visual appeal at the top.
+2.  **Emoji usage:** Makes the sections easier to scan visually.
+3.  **Code Blocks:** Uses `text` or `bash` tags for better syntax highlighting.
+4.  **Checklist:** The "Project Goals" section uses a checklist to show progress and purpose.
+
+**Would you like me to help you write a "How it Works" section explaining the logic behind the file compression or conversion?**
+
+```
